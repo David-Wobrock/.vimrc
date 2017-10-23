@@ -15,3 +15,6 @@ set number
 
 set path+=**
 set wildmenu
+
+set autoindent
+set smartindent
