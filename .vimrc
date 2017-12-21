@@ -27,3 +27,7 @@ set smartindent
 
 " Disable mouse for selecting/visual mode
 set mouse-=a
+
+" Set a color and use it for highlighting trailing whitespaces
+highlight ExtraWhitespace ctermbg=red guibg=red
+match ExtraWhitespace /\s\+$/
